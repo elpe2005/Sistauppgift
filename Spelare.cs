@@ -8,10 +8,13 @@ namespace Sistauppgift
         {
             this.hp = 100;
         }
-        public int Spelaren()
+        public void TaHp(int skada)
         {
-            Console.WriteLine(hp);
-            return hp;
+            hp -= skada;
+        }
+        public int HP
+        {
+            get { return hp; }
         }
         
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Sistauppgift\\Sistauppgift.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Sistaprog2uppg\\Sistauppgift\\Sistauppgift.csproj",
       "projectName": "Sistauppgift",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sistauppgift\\Sistauppgift.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sistaprog2uppg\\Sistauppgift\\Sistauppgift.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sistauppgift\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sistaprog2uppg\\Sistauppgift\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,10 +7,14 @@ namespace Sistauppgift
         {
             this.hp = 100;
         }
-        public int Bärsärkfiende()
+        public void TaHP(int Skada)
         {
-            Console.WriteLine(hp);
-            return hp;
+            hp -= Skada;
+            Console.WriteLine("Du skadade en fiende för " + Skada + " skada");
+        }
+        public int HP
+        {
+            get { return hp; }
         }
     }
 }

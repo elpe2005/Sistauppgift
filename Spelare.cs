@@ -6,15 +6,15 @@ namespace Sistauppgift
 
         public Spelare()
         {
-            this.hp = 100;
+            this.hp = 100; // här är spelarens fiende.
         }
         public void TaHp(int skada)
         {
-            hp -= skada;
+            hp -= skada; //koden så du kan ta hp.
         }
         public int HP
         {
-            get { return hp; }
+            get { return hp; } //skickar ut den.
         }
         
     }

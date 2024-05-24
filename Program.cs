@@ -1,8 +1,6 @@
 ﻿using Sistauppgift;
 using System.IO;
 
-int poäng = 0;
-
 Bärsärk bärsärk = new Bärsärk();
 Spelare spelare = new Spelare();
 Sparklass sparklass = new Sparklass();
@@ -21,10 +19,11 @@ while (spelare.HP > 0 && bärsärk.HP > 0)
     int skadaLångRandom = new Random().Next(1,15);
     if(val == "1")
     {
-        Console.Clear();
+
+
         bärsärk.TaHP(skadaRandom);
         Console.WriteLine("Fienden attackerade dig, du tog " + fiendeAttack + " skada."); //Behöver hitta hur man tar bort övre hp, och hur man visar val 3 igen.
-        spelare.TaHp(fiendeAttack);    
+        spelare.TaHp(fiendeAttack);
     } 
     else if(val == "2")
     {
@@ -49,6 +48,7 @@ while (spelare.HP > 0 && bärsärk.HP > 0)
         Console.WriteLine("Du kan bara skriva siffrorna mellan 1-4!");
     }
 }
+
 if(spelare.HP <= 0)
 {
     sparklass.Kalkylerare(-1);
@@ -57,8 +57,6 @@ if(bärsärk.HP <= 0)
 {
     sparklass.Kalkylerare(1);
 }
-
-Console.Clear();
+sparklass.SkrivaUt();
 Console.WriteLine("Spelaren har " + spelare.HP + " hp.");
 Console.WriteLine("Fienden har " + bärsärk.HP + " hp.");
-sparklass.Skrivare(poäng);

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pI9Rd08G9E=",
+  "dgSpecHash": "jrf0DvqM8QiioCLl3edkZehM/7j0ussIu29LU6BHSX1b7asCWyno+SJIu6yZT6BvnDoFq0IMD/X7VaEiY7CGiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\epede\\Documents\\GitHub\\Sistauppgift\\Sistauppgift.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\epede\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "C:\\Users\\epede\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
-    "C:\\Users\\epede\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
-    "C:\\Users\\epede\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\Sistaprog2uppg\\Sistauppgift\\Sistauppgift.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

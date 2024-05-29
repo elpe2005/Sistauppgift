@@ -1,20 +1,17 @@
 namespace Sistauppgift
 {
-    public class Bärsärk
+    public class Bärsärk : Fiende
     {
-        private int hp;
-        public Bärsärk()
+        public override void attack(Spelare spelare)
         {
-            this.hp = 100; //Här sätter jag hur mycket hp Bärsärken ska ha.
+            fiendeAttack = new Random().Next(2,8);
+            spelare.HP -= fiendeAttack;
+            Console.WriteLine("Bärsärken attackerar dig " + fiendeAttack + ".");
         }
-        public void TaHP(int Skada)
+        public override void TaSkada(int skada)
         {
-            hp -= Skada;
-            Console.WriteLine("Du skadade en fiende för " + Skada + " skada"); //Detta är om fienden blir skadad.
-        }
-        public int HP
-        {
-            get { return hp; } //Här skickar jag ut hp:et.
+            hp -= skada;
+            Console.WriteLine("Du skadade en Bärsärk för " + skada + " skada"); //Detta är om fienden blir skadad.
         }
     }
 }

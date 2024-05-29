@@ -4,7 +4,7 @@ namespace Sistauppgift
     {
         public override void attack(Spelare spelare)
         {
-            fiendeAttack = new Random().Next(2,8);
+            fiendeAttack = new Random().Next(2,10);
             spelare.HP -= fiendeAttack;
             Console.WriteLine("Bärsärken attackerar dig " + fiendeAttack + ".");
         }

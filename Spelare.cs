@@ -21,7 +21,7 @@ namespace Sistauppgift
         }
         public void spelareattack(Fiende fiende)
         {
-            skadaRandom = new Random().Next(3, 15); //Detta är det olika randoms så attackerna gör olika skada varje runda.
+            skadaRandom = new Random().Next(3, 13); //Detta är det olika randoms så attackerna gör olika skada varje runda.
             fiende.TaSkada(skadaRandom);
         }
     }
